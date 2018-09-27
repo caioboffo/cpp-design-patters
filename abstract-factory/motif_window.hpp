@@ -8,6 +8,8 @@
 class motif_window : public window
 {
 public:
+    motif_window() = default;
+    virtual ~motif_window() = default;
     virtual void show() {
         std::cout << "This is a motif window\n";
     }

@@ -7,6 +7,7 @@
 class pm_scroll_bar : public scroll_bar
 {
 public:
+    virtual ~pm_scroll_bar() = default;
     virtual void show() {
         std::cout << "this is a pm_scroll_bar\n";
     }

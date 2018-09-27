@@ -4,6 +4,8 @@
 class window
 {
 public:
+    window() = default;
+    virtual ~window() = default;
     virtual void show() = 0;
     void set_width(int n) {
         width = n;

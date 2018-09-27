@@ -7,6 +7,8 @@
 class motif_scroll_bar : public scroll_bar
 {
 public:
+    motif_scroll_bar() = default;
+    virtual ~motif_scroll_bar() = default;
     virtual void show() {
         std::cout << "this is a motif_scroll_bar\n";
     }
